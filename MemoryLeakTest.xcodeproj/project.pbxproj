@@ -13,6 +13,7 @@
 		919A390A1AFD45A9000B0A75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919A39091AFD45A9000B0A75 /* Images.xcassets */; };
 		919A390D1AFD45A9000B0A75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919A390B1AFD45A9000B0A75 /* LaunchScreen.xib */; };
 		919A39191AFD45A9000B0A75 /* MemoryLeakTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A39181AFD45A9000B0A75 /* MemoryLeakTestTests.swift */; };
+		919A39231AFD465F000B0A75 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A39221AFD465F000B0A75 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		919A39121AFD45A9000B0A75 /* MemoryLeakTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryLeakTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		919A39171AFD45A9000B0A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		919A39181AFD45A9000B0A75 /* MemoryLeakTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeakTestTests.swift; sourceTree = "<group>"; };
+		919A39221AFD465F000B0A75 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				919A39021AFD45A9000B0A75 /* AppDelegate.swift */,
 				919A39041AFD45A9000B0A75 /* ViewController.swift */,
+				919A39221AFD465F000B0A75 /* Person.swift */,
 				919A39061AFD45A9000B0A75 /* Main.storyboard */,
 				919A39091AFD45A9000B0A75 /* Images.xcassets */,
 				919A390B1AFD45A9000B0A75 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919A39231AFD465F000B0A75 /* Person.swift in Sources */,
 				919A39051AFD45A9000B0A75 /* ViewController.swift in Sources */,
 				919A39031AFD45A9000B0A75 /* AppDelegate.swift in Sources */,
 			);
